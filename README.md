@@ -1,1 +1,1 @@
-# tailwind-next
+# Tailwind Next.js Starter

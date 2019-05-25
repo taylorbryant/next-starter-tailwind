@@ -1,0 +1,33 @@
+{
+  "name": "mixtr",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorbryant/mixtr.git"
+  },
+  "author": "Taylor Bryant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taylorbryant/mixtr/issues"
+  },
+  "homepage": "https://github.com/taylorbryant/mixtr#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "autoprefixer": "^9.5.1",
+    "tailwindcss": "^1.0.1"
+  }
+}
