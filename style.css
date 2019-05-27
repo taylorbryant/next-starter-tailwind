@@ -1,9 +1,6 @@
+/* purgecss start ignore */
 @tailwind base;
-
-* {
-  margin: 0;
-  padding: 0;
-}
+/* purgecss end ignore */
 
 @tailwind components;
 
