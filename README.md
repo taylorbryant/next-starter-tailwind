@@ -21,7 +21,7 @@
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oddstronaut/tailwind-next)
 
 ## License
-[MIT](https://github.com/oddstronaut/gatsby-starter-tailwind/blob/master/LICENSE.md)
+[MIT](https://github.com/oddstronaut/tailwind-next/blob/master/LICENSE.md)
 
 ## How you can help
 Enjoying this starter and want to help? You can:
