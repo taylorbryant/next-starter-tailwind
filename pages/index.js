@@ -1,13 +1,19 @@
-import "../style.css";
+import Layout from "../components/layout";
 
 function Home() {
   return (
-    <div className="items-center bg-teal-600 flex justify-center min-h-screen">
-      <h1 className="font-sans text-center text-white t text-lg lg:text-2xl">
-        Welcome to <span className="font-bold">Next.js</span> styled with{" "}
-        <span className="font-bold">Tailwind CSS!</span>
-      </h1>
-    </div>
+    <Layout>
+      <div class="flex flex-col items-center justify-center">
+        <img
+          src="/static/team-of-critters.svg"
+          className="max-w-xl w-full"
+        />
+
+        <h2 className="bg-yellow-400 font-bold my-8 p-3 text-lg md:text-2xl">
+          Hi! Welcome to your first Next.js site.
+        </h2>
+      </div>
+    </Layout>
   );
 }
 
