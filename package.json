@@ -30,6 +30,6 @@
     "@fullhuman/postcss-purgecss": "1.2.0",
     "autoprefixer": "9.6.0",
     "cssnano": "4.1.10",
-    "tailwindcss": "1.0.1"
+    "tailwindcss": "1.0.3"
   }
 }
