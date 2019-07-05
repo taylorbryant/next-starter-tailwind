@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 function Home() {
   return (
     <Layout>
-      <div class="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <img
           src="/static/team-of-critters.svg"
           className="max-w-xl w-full"
