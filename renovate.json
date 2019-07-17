@@ -1,5 +1,6 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base"],
+  "assignees": ["taylorbryant"],
+  "bumpVersion": "patch",
+  "bundler": { "enabled": true }
 }
