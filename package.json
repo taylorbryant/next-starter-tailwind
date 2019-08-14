@@ -1,6 +1,6 @@
 {
   "name": "tailwind-next",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tailwind Next Starter",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,6 @@
     "@fullhuman/postcss-purgecss": "1.2.0",
     "autoprefixer": "9.6.1",
     "cssnano": "4.1.10",
-    "tailwindcss": "1.1.1"
+    "tailwindcss": "1.1.2"
   }
 }
