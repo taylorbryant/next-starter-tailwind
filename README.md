@@ -15,6 +15,10 @@
 >"Tailwind is a utility-first CSS framework for rapidly building custom user interfaces."
 –[Tailwind](https://tailwindcss.com)
 
+## In the wild
+
+I built [my personal website](https://github.com/taylorbryant/bryant.io) using this starter.
+
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oddstronaut/tailwind-next)
