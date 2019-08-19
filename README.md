@@ -1,4 +1,4 @@
-# Tailwind Next.js Starter
+# Next.js Starter Tailwind
   
 ![alt text](https://github.com/Oddstronaut/tailwind-next/blob/master/static/screenshot.png "Screenshot of Tailwind Next.js Starter homepage")
   
