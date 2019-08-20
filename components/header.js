@@ -15,7 +15,7 @@ function Header() {
 
           <Link href="/">
             <a className="font-bold text-white text-xl">
-              Tailwind Next.js Starter
+              Next.js Starter Tailwind
             </a>
           </Link>
         </div>
