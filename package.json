@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-next",
+  "name": "next-starter-tailwind",
   "version": "1.0.4",
-  "description": "Tailwind Next Starter",
+  "description": "Next.js starter styled with Tailwind CSS",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oddstronaut/tailwind-next.git"
+    "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
   },
   "author": "Taylor Bryant",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oddstronaut/tailwind-next/issues"
+    "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
   },
   "homepage": "https://github.com/oddstronaut/tailwind-next#readme",
   "dependencies": {
