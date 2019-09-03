@@ -1,6 +1,7 @@
 # Next.js Starter Tailwind
   
 ![alt text](https://github.com/Oddstronaut/tailwind-next/blob/master/static/screenshot.png "Screenshot of Tailwind Next.js Starter homepage")
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftaylorbryant%2Fnext-starter-tailwind.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftaylorbryant%2Fnext-starter-tailwind?ref=badge_shield)
   
  <div align="center">
   <strong>A <a href="https://nextjs.org" target="_blank">Next.js</a> starter styled using <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>, a utility-first CSS framework.</strong><br />
@@ -25,6 +26,9 @@ I built [my personal website](https://github.com/taylorbryant/bryant.io) using t
 
 ## License
 [MIT](https://github.com/oddstronaut/tailwind-next/blob/master/LICENSE.md)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftaylorbryant%2Fnext-starter-tailwind.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftaylorbryant%2Fnext-starter-tailwind?ref=badge_large)
 
 ## How you can help
 Enjoying this starter and want to help? You can:
