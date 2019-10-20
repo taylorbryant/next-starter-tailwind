@@ -5,7 +5,7 @@ function Home() {
     <Layout>
       <div className="flex flex-col items-center justify-center">
         <img
-          src="/static/team-of-critters.svg"
+          src="team-of-critters.svg"
           className="max-w-xl w-full"
         />
 

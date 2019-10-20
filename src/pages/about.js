@@ -26,7 +26,7 @@ function About() {
         </div>
 
         <div className="md:ml-6 md:w-1/2">
-          <img src="/static/critter.svg" className="w-full" />
+          <img src="critter.svg" className="w-full" />
         </div>
       </div>
     </Layout>
