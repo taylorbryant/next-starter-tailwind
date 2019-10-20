@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
   },
-  "homepage": "https://github.com/oddstronaut/tailwind-next#readme",
+  "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "next": "^9.1.1",
