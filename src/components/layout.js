@@ -1,6 +1,6 @@
 import Header from "./header";
 import Footer from "./footer";
-import "../style.css";
+import "../style.scss";
 
 function Layout(props) {
   return (
