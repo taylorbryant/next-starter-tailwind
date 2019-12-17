@@ -22,7 +22,7 @@
   "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "next": "^9.1.5",
+    "next": "^9.1.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
