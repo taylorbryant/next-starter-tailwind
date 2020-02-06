@@ -28,6 +28,6 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "2.0.6",
     "autoprefixer": "9.7.4",
-    "tailwindcss": "1.1.4"
+    "tailwindcss": "1.2.0"
   }
 }
