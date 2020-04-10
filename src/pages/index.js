@@ -4,7 +4,7 @@ function Home () {
   return (
     <Layout>
       <div className='flex flex-col items-center justify-center'>
-        <img src='team-of-critters.svg' className='max-w-xl w-full' />
+        <img src='team-of-critters.svg' alt="A lots of little creatures" className='max-w-xl w-full' />
 
         <h2 className='bg-yellow-400 font-bold my-8 p-3 text-lg md:text-2xl'>
           Hi! Welcome to your first Next.js site.
