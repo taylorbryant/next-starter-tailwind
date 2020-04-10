@@ -1,6 +1,6 @@
 {
   "name": "next-starter-tailwind",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Next.js starter styled with Tailwind CSS",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,8 @@
     "build": "next build",
     "export": "npm run build && next export",
     "start": "next start",
+    "lint": "prettier-standard --lint '**/*.{js,css}'",
+    "format": "prettier-standard --format '**/*.{js,css}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +30,8 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "2.1.0",
     "autoprefixer": "9.7.6",
+    "prettier-standard": "^16.2.1",
+    "prop-types": "^15.7.2",
     "tailwindcss": "1.2.0"
   }
 }

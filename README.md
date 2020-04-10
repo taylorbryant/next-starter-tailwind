@@ -1,6 +1,6 @@
 # Next.js Starter Tailwind
 
-![alt text](https://github.com/taylorbryant/next-starter-tailwind/blob/master/public/screenshot.png "Screenshot of Tailwind Next.js Starter homepage")
+![alt text](https://github.com/taylorbryant/next-starter-tailwind/blob/master/public/screenshot.png 'Screenshot of Tailwind Next.js Starter homepage')
 
  <div align="center">
   <strong>A <a href="https://nextjs.org" target="_blank">Next.js</a> starter styled using <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>, a utility-first CSS framework.</strong><br />

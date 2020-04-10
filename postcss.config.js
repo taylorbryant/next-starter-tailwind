@@ -3,7 +3,7 @@ module.exports = {
     tailwindcss: {},
     ...(process.env.NODE_ENV === `production`
       ? {
-          "@fullhuman/postcss-purgecss": {
+          '@fullhuman/postcss-purgecss': {
             content: [`./src/**/*.js`],
             defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
           },
@@ -11,4 +11,4 @@ module.exports = {
         }
       : {})
   }
-};
+}
