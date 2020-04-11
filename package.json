@@ -12,6 +12,11 @@
     "format": "prettier-standard --format '**/*.{js,css}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "prettier-standard --staged '**/*.{js,css}' "
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
@@ -30,6 +35,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "2.1.0",
     "autoprefixer": "9.7.6",
+    "husky": "^4.2.5",
     "prettier-standard": "^16.2.1",
     "prop-types": "^15.7.2",
     "tailwindcss": "1.2.0"
