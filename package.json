@@ -26,7 +26,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "2.1.0",
+    "@fullhuman/postcss-purgecss": "2.1.2",
     "autoprefixer": "9.7.6",
     "tailwindcss": "1.2.0"
   }
