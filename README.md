@@ -4,7 +4,7 @@
 
  <div align="center">
   <strong>A <a href="https://nextjs.org" target="_blank">Next.js</a> starter styled using <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>, a utility-first CSS framework.</strong><br />
-  Uses <a href="https://www.purgecss.com/" target="_blank">Purgecss</a> to remove unused CSS.<br />
+  Uses Tailwind's <a href="https://tailwindcss.com/docs/controlling-file-size" target="_blank">built-in purge option</a> to remove unused CSS.<br />
   Illustrations by <a href="https://undraw.co/" target="_blank">unDraw</a>.<br />
   View demo <a href="https://next-starter-tailwind.oddstronaut.com/" target="_blank">here</a>.
   <br />
