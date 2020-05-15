@@ -19,7 +19,6 @@ function About () {
             }
           ].map(section => (
             <>
-
               <h2 className='mb-3 text-xl font-bold'>{section.heading}</h2>
 
               <p className='mb-6'>{section.body}</p>
@@ -28,9 +27,7 @@ function About () {
         </div>
 
         <div className='md:ml-6 md:w-1/2'>
-
           <img src='critter.svg' alt='A little creature' className='w-full' />
-
         </div>
       </div>
     </Layout>
