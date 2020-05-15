@@ -6,6 +6,7 @@ function Header () {
 
   return (
     <header className='bg-teal-500'>
+
       <div className='flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:flex-no-wrap md:p-8'>
         <div className='flex items-center'>
           <img
@@ -16,17 +17,20 @@ function Header () {
 
           <Link href='/'>
             <a className='text-xl font-bold text-white'>
+
               Next.js Starter Tailwind
             </a>
           </Link>
         </div>
 
         <button
+
           className='flex items-center block px-3 py-2 text-white border border-white rounded md:hidden'
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
             className='w-3 h-3 fill-current'
+
             viewBox='0 0 20 20'
             xmlns='http://www.w3.org/2000/svg'
           >
