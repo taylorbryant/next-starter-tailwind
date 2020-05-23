@@ -8,11 +8,16 @@
     "build": "next build",
     "export": "npm run build && next export",
     "start": "next start",
-    "fix:dependencies": "npm audit fix",
+    "analyze:eslint": "eslint --ext .jsx --ext .js . --fix",
+    "analyze:import-sort": "import-sort '**/*.js'",
+    "analyze:prettier": "prettier --write '**/*.{js,css,md,mdx}'",
+    "analyze:rustywind": "rustywind --dry-run .",
+    "analyze": "npm run analyze:eslint && npm run analyze:import-sort && npm run analyze:prettier && npm run analyze:rustywind",
+    "fix:eslint": "eslint --ext .jsx --ext .js . --fix",
     "fix:import-sort": "import-sort --write '**/*.js'",
-    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
     "fix:prettier": "prettier --write '**/*.{js,css,md,mdx}'",
-    "fix": "npm run fix:dependencies && npm run fix:import-sort && npm run fix:lint && npm run fix:prettier"
+    "fix:rustywind": "rustywind --write .",
+    "fix": "npm audit fix && npm run fix:import-sort && npm run fix:rustywind && npm run fix:eslint && npm run fix:prettier"
   },
   "repository": {
     "type": "git",
@@ -44,6 +49,7 @@
     "import-sort-style-module": "6.0.0",
     "lint-staged": "10.2.6",
     "prettier": "2.0.5",
+    "rustywind": "0.6.5",
     "tailwindcss": "1.4.6"
   },
   "husky": {

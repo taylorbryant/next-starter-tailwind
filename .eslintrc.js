@@ -15,7 +15,8 @@ module.exports = {
   rules: {
     "prettier/prettier": `error`,
     quotes: [`error`, `backtick`],
-    "react/jsx-sort-props": [`error`],
+    "react/jsx-sort-props": `error`,
+    "react/sort-prop-types": `error`,
   },
   settings: {
     react: {
