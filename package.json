@@ -4,6 +4,10 @@
   "description": "Next.js starter styled with Tailwind CSS",
   "main": "index.js",
   "scripts": {
+    "analyze:tailwind-css-class-order": "rustywind --dry-run .",
+    "analyze": "npm run analyze:tailwind-css-class-order",
+    "fix:tailwind-css-class-order": "rustywind --write .",
+    "fix": "npm run fix:tailwind-css-class-order",
     "dev": "next",
     "build": "next build",
     "export": "npm run build && next export",
@@ -27,6 +31,7 @@
   },
   "devDependencies": {
     "autoprefixer": "9.8.6",
+    "rustywind": "0.6.6",
     "tailwindcss": "1.6.2"
   }
 }
