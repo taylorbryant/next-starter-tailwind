@@ -14,6 +14,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "egdavid",
+      "name": "David Eugene",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10560326?v=4",
+      "profile": "https://www.synaptech.fr",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
