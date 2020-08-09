@@ -9,15 +9,6 @@
  <p>View demo <a href="https://next-starter-tailwind.oddstronaut.com/" target="_blank">here</a>.</p>
 </div>
 
-## What is Tailwind?
-
-> "Tailwind is a utility-first CSS framework for rapidly building custom user interfaces."
-> –[Tailwind](https://tailwindcss.com)
-
-## In the wild
-
-I built [my personal website](https://github.com/taylorbryant/bryant.io) using this starter.
-
 ## Deploy
 
 ### Netlify
