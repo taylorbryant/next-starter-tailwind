@@ -30,7 +30,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "rustywind": "0.6.6",
+    "rustywind": "0.6.7",
     "tailwindcss": "1.8.10"
   }
 }
