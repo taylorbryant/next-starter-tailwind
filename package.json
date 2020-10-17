@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "rustywind": "0.6.7",
-    "tailwindcss": "1.9.2"
+    "tailwindcss": "1.9.3"
   }
 }
