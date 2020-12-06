@@ -1,20 +1,19 @@
 import Link from "next/link";
 import { useState } from "react";
+import cn from "classnames";
+import Image from "next/image";
 
-function Header() {
-  const [isExpanded, toggleExpansion] = useState(false);
+export default function Header() {
+  const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
 
   return (
-    <header className="bg-teal-500">
-      <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:flex-no-wrap md:p-8">
+    <header className="bg-green-600">
+      <div className="flex flex-wrap items-center justify-between lg:container px-4 py-6 mx-auto md:flex-no-wrap md:px-6">
         <div className="flex items-center">
-          <img
-            src="tailwind-logo.svg"
-            className="w-10 mr-3 text-white"
-          />
+          <Image src="/tailwind-logo.svg" width={40} height={40} priority />
 
           <Link href="/">
-            <a className="text-xl font-bold text-white">
+            <a className="text-lg md:text-xl font-bold ml-3 text-white">
               Next.js Starter Tailwind
             </a>
           </Link>
@@ -22,7 +21,7 @@ function Header() {
 
         <button
           className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
-          onClick={() => toggleExpansion(!isExpanded)}
+          onClick={() => setMobileMenuIsOpen(!mobileMenuIsOpen)}
         >
           <svg
             className="w-3 h-3 fill-current"
@@ -35,17 +34,18 @@ function Header() {
         </button>
 
         <ul
-          className={`${
-            isExpanded ? `block` : `hidden`
-          } md:flex flex-col md:flex-row md:items-center md:justify-center text-sm w-full md:w-auto`}
+          className={cn(
+            "md:flex flex-col md:flex-row md:items-center md:justify-center text-sm w-full md:w-auto",
+            mobileMenuIsOpen ? `block` : `hidden`
+          )}
         >
           {[
             { title: "Home", route: "/" },
-            { title: "About", route: "/about" }
-          ].map(navigationItem => (
-            <li className="mt-3 md:mt-0 md:ml-6" key={navigationItem.title}>
-              <Link href={navigationItem.route}>
-                <a className="block text-white">{navigationItem.title}</a>
+            { title: "About", route: "/about" },
+          ].map(({ route, title }) => (
+            <li className="mt-3 md:mt-0 md:ml-6" key={title}>
+              <Link href={route}>
+                <a className="block text-white">{title}</a>
               </Link>
             </li>
           ))}
@@ -54,5 +54,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

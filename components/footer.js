@@ -1,18 +1,24 @@
-function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-blue-500">
-      <ul className="flex items-center justify-between max-w-4xl p-4 mx-auto text-sm text-white md:p-8">
+      <ul className="flex items-center justify-between lg:container px-4 py-6 mx-auto text-sm text-white md:px-6">
         <li>
           Created by{" "}
-          <a href="https://bryant.io" target="_blank" className="font-bold">
+          <a
+            href="https://taylorbrynat.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold"
+          >
             Taylor Bryant
           </a>
         </li>
 
         <li>
           <a
-            href="https://github.com/oddstronaut/tailwind-next"
+            href="https://github.com/oddstronaut/next-starter-tailwind"
             target="_blank"
+            rel="noopener noreferrer"
             className="font-bold"
           >
             GitHub
@@ -22,5 +28,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

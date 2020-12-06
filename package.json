@@ -1,6 +1,6 @@
 {
   "name": "next-starter-tailwind",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Next.js starter styled with Tailwind CSS",
   "main": "index.js",
   "scripts": {
@@ -11,26 +11,32 @@
     "dev": "next",
     "build": "next build",
     "export": "npm run build && next export",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
+    "url": "git+https://github.com/oddstronaut/next-starter-tailwind.git"
   },
   "author": "Taylor Bryant",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
+    "url": "https://github.com/oddstronaut/next-starter-tailwind/issues"
   },
-  "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
+  "homepage": "https://github.com/oddstronaut/next-starter-tailwind#readme",
   "dependencies": {
     "next": "10.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "autoprefixer": "10.0.4",
+    "classnames": "2.2.6",
+    "postcss": "8.1.14",
+    "postcss-100vh-fix": "1.0.2",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-hover-media-feature": "1.0.0",
+    "postcss-preset-env": "6.7.0",
     "rustywind": "0.6.7",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "2.0.1"
   }
 }
