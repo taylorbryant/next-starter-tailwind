@@ -24,7 +24,7 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "10.0.4",
+    "autoprefixer": "10.1.0",
     "classnames": "2.2.6",
     "postcss": "8.1.14",
     "postcss-100vh-fix": "1.0.2",
