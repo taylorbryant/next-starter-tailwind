@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oddstronaut/next-starter-tailwind.git"
+    "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
   },
   "author": "Taylor Bryant",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oddstronaut/next-starter-tailwind/issues"
+    "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
   },
-  "homepage": "https://github.com/oddstronaut/next-starter-tailwind#readme",
+  "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
   "dependencies": {
     "next": "10.0.3",
     "react": "17.0.1",
