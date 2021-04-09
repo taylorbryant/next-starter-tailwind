@@ -5,7 +5,7 @@ export default function Footer() {
         <li>
           Created by{" "}
           <a
-            href="https://taylorbrynat.dev"
+            href="https://taylorbryant.dev/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold"
