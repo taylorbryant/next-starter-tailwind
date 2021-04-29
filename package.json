@@ -31,6 +31,6 @@
     "postcss-flexbugs-fixes": "5.0.2",
     "postcss-hover-media-feature": "1.0.1",
     "postcss-preset-env": "6.7.0",
-    "tailwindcss": "2.0.4"
+    "tailwindcss": "2.1.2"
   }
 }
