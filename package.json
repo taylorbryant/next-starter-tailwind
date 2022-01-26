@@ -32,7 +32,7 @@
     "postcss": "8.3.6",
     "postcss-100vh-fix": "1.0.2",
     "postcss-flexbugs-fixes": "5.0.2",
-    "postcss-hover-media-feature": "1.0.1",
+    "postcss-hover-media-feature": "1.0.2",
     "postcss-preset-env": "6.7.0",
     "tailwindcss": "2.2.15"
   }
