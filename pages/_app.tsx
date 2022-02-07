@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import Layout from "@components/Layout";
-import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
 
 function App({ Component, pageProps }: AppProps) {
