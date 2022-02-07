@@ -7,6 +7,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <DefaultSeo
+        title="Build something great"
         description="A Next.js starter styled using Tailwind CSS."
         titleTemplate="Next.js Starter Tailwind | %s"
       />
