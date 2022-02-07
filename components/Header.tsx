@@ -1,10 +1,14 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import cn from "classnames";
 import Image from "next/image";
 
 export default function Header() {
-  const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
+  const [isMobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
+  const toggleMobileMenu = useCallback(
+    (prevState) => setMobileMenuIsOpen(!prevState),
+    []
+  );
 
   return (
     <header className="bg-green-600">
@@ -26,8 +30,8 @@ export default function Header() {
         </div>
 
         <button
-          className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
-          onClick={() => setMobileMenuIsOpen(!mobileMenuIsOpen)}
+          className="flex items-center px-3 py-2 text-white border border-white rounded md:hidden"
+          onClick={toggleMobileMenu}
         >
           <svg
             className="w-3 h-3 fill-current"
@@ -42,7 +46,7 @@ export default function Header() {
         <ul
           className={cn(
             "md:flex flex-col md:flex-row md:items-center md:justify-center text-sm w-full md:w-auto",
-            mobileMenuIsOpen ? `block` : `hidden`
+            isMobileMenuIsOpen ? `block` : `hidden`
           )}
         >
           {[
