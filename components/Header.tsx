@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <header className="bg-green-600">
-      <div className="flex flex-wrap items-center justify-between lg:container px-4 py-6 mx-auto md:flex-no-wrap md:px-6">
+      <div className="md:flex-no-wrap mx-auto flex flex-wrap items-center justify-between px-4 py-6 md:px-6 lg:container">
         <div className="flex items-center">
           <Image
             src="/tailwind-logo.svg"
@@ -23,18 +23,18 @@ export default function Header() {
           />
 
           <Link href="/">
-            <a className="text-lg md:text-xl font-bold ml-3 text-white">
+            <a className="ml-3 text-lg font-bold text-white md:text-xl">
               Next.js Starter Tailwind
             </a>
           </Link>
         </div>
 
         <button
-          className="flex items-center px-3 py-2 text-white border border-white rounded md:hidden"
+          className="flex items-center rounded border border-white px-3 py-2 text-white md:hidden"
           onClick={toggleMobileMenu}
         >
           <svg
-            className="w-3 h-3 fill-current"
+            className="h-3 w-3 fill-current"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -45,7 +45,7 @@ export default function Header() {
 
         <ul
           className={cn(
-            "md:flex flex-col md:flex-row md:items-center md:justify-center text-sm w-full md:w-auto",
+            "w-full flex-col text-sm md:flex md:w-auto md:flex-row md:items-center md:justify-center",
             isMobileMenuIsOpen ? `block` : `hidden`
           )}
         >
