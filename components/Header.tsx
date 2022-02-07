@@ -3,7 +3,7 @@ import { useState, useCallback } from "react";
 import cn from "classnames";
 import Image from "next/image";
 
-export default function Header() {
+const Header = () => {
   const [isMobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
   const toggleMobileMenu = useCallback(
     (prevState) => setMobileMenuIsOpen(!prevState),
@@ -32,6 +32,7 @@ export default function Header() {
         <button
           className="flex items-center rounded border border-white px-3 py-2 text-white md:hidden"
           onClick={toggleMobileMenu}
+          type="button"
         >
           <svg
             className="h-3 w-3 fill-current"
@@ -63,4 +64,6 @@ export default function Header() {
       </div>
     </header>
   );
-}
+};
+
+export default Header;
