@@ -1,17 +1,15 @@
 import "../styles/globals.css";
-import Head from "next/head";
 import Layout from "@components/Layout";
+import { DefaultSeo } from "next-seo";
+import type { AppProps } from "next/app";
 
-function App({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
-      <Head>
-        <title>Next.js Starter Tailwind</title>
-        <meta
-          name="Description"
-          content="A Next.js starter styled using Tailwind CSS."
-        />
-      </Head>
+      <DefaultSeo
+        description="A Next.js starter styled using Tailwind CSS."
+        titleTemplate="Next.js Starter Tailwind | %s"
+      />
 
       <Component {...pageProps} />
     </Layout>
