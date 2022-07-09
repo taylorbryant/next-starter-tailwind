@@ -1,8 +1,9 @@
-import "../css/index.css";
+import "../styles/index.css";
 import Head from "next/head";
-import Layout from "@components/layout";
+import Layout from "@components/Layout";
+import type { AppProps } from "next/app";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <Head>
