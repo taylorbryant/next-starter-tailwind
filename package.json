@@ -29,7 +29,7 @@
     "classnames": "2.3.1",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
-    "postcss": "8.3.6",
+    "postcss": "8.4.21",
     "postcss-100vh-fix": "1.0.2",
     "postcss-flexbugs-fixes": "5.0.2",
     "postcss-hover-media-feature": "1.0.1",
