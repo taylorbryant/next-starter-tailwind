@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* SOME CSS RESETS CODES */
+*,
+*::before,
+*::after {
+   background-repeat: no-repeat;
+   transition: inherit;
+}
+body {
+   padding: 0;
+   margin: 0;
+   min-height: 100vh;
+}
+img {
+   user-drag: none;
+   -o-user-drag: none;
+   -moz-user-drag: none;
+   -webkit-user-drag: none;
+   user-select: none;
+   -o-user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+}
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+   cursor: pointer;
+}
+/* Remove highlight blue color when click on link or botton in the mobile version */
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+a {
+   -webkit-tap-highlight-color: transparent;
+   -webkit-touch-callout: none;
+}
+/* Remove hover effects when button is disabled */
+button:disabled,
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="button"]:disabled {
+   pointer-events: none;
+   cursor: not-allowed;
+}
