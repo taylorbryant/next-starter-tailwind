@@ -1,13 +1,8 @@
-import { Client, Account, ID } from "appwrite";
+import { Account, ID } from "appwrite";
 import { useState } from "react";
+import appwriteClient from "utils/appwriteClient";
 
-const client = new Client();
-
-client
-  .setEndpoint("https://cloud.appwrite.io/v1")
-  .setProject("6427fe5067c97fb3cf6d");
-
-const account = new Account(client);
+const account = new Account(appwriteClient);
 
 export default function IndexPage() {
   const [newEmail, setNewEmail] = useState(null);
@@ -37,7 +32,7 @@ export default function IndexPage() {
         onChange={(e) => setNewEmail(e.target.value)}
       />
       <br />
-      Password: 
+      Password:
       <input
         type="password"
         placeholder="Password"

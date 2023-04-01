@@ -1,13 +1,10 @@
-import { Client, Account, ID } from "appwrite";
+import { Account } from "appwrite";
+
 import { useState } from "react";
 
-const client = new Client();
+import appwriteClient from "utils/appwriteClient";
 
-client
-  .setEndpoint("https://cloud.appwrite.io/v1")
-  .setProject("6427fe5067c97fb3cf6d");
-
-const account = new Account(client);
+const account = new Account(appwriteClient);
 
 export default function LoginPage() {
   const [email, setEmail] = useState(null);
