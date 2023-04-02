@@ -1,0 +1,3 @@
+export const DATABASE_ID = "642821b590a2dbb05bb7"
+export const ENTITIES_COLLECTION_ID = "642821d0b9911f4fa0b9"
+
