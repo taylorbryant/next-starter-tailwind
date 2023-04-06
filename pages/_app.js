@@ -1,4 +1,5 @@
 import "../css/index.css";
+import "../css/landingPage.css";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
